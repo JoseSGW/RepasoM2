@@ -94,8 +94,7 @@ describe("Funciones 'acciones'", () => {
       payload: {
         city: "Buenos Aires",
         location: "Argentina",
-        temperatura: "30",
-        id:1
+        temperatura: "30"
       },
     });
   });
@@ -104,7 +103,7 @@ describe("Funciones 'acciones'", () => {
     expect(removeCity(payload)).toEqual({
       type: "RemoveCity",
       payload: {
-        id: 2,
+        id: 2
       },
     });
   });
@@ -128,7 +127,7 @@ describe("Reducer", () => {
         city: "Caracas",
       location: "Venezuela",
       temperatura:"32",
-        id: 1,
+        id: 1
       }]
     });
   });
