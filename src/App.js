@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 
 // REDUCER _________________________------------
@@ -27,11 +27,14 @@ export const reducer=(state,action) => {
  // hoja. Deberian hacer el form y renderizar lo que tendrian en el "estado local de redux"
  // la manera en la que pueden unir los componentes es al momento de agregar una ciudad es llamarlo de la siguiente
  // manera "onClick={reducer(EstadoActual,Accion(payload))}"
+ // PARA QUE PASEN LOS TESTS ES NECESARIO USAR React.useState en lugar de useState solo
  // Recuerden que la idea es practicar y tener conceptos claros, con que entiendan los tests y sientan que entendieron
  // es suficiente.
 export const App=() => {
 
-  return;
+  return(
+    <h1>Repaso</h1>
+  )
 
 }
 
